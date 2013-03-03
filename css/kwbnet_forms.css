@@ -1,0 +1,535 @@
+
+/* LOGIN FORM ELEMENTS */
+ 
+/* START LOG BOX CSS */
+
+#rightbox_login .input{
+font-size:22px;
+text-align:center;
+width:360px;
+height:60px;
+padding:0px 10px 0px 10px;
+margin:0px 0px 0px 0px;
+border:1px solid #585858; /*CHANGABLE*/ /*DEFAULT COLOR: #d8d8d8 */
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #858585;
+-moz-box-shadow: 0px 0px 5px 1px #858585;
+-webkit-box-shadow: 0px 0px 5px 1px #858585;
+}
+
+#rightbox_login .submit{
+font-size:22px;
+text-align:center;
+width:360px;
+height:60px;
+padding:0px 10px 0px 10px;
+margin:0px 0px 0px 0px;
+border:1px solid #585858; /*CHANGABLE*/ /*DEFAULT COLOR: #d8d8d8 */
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #858585;
+-moz-box-shadow: 0px 0px 5px 1px #858585;
+-webkit-box-shadow: 0px 0px 5px 1px #858585;
+cursor: pointer;
+
+}
+
+
+/* END LOG BOX CSS */
+
+
+
+/* REGISTER FORM ELEMENTS */
+/* 
+.reg{
+width:300px;
+height:15px;
+border:1px solid #d2d2d2;
+-moz-border-radius: 5px;
+border-radius: 5px;
+margin: 0 auto;
+padding: 5px 10px 5px 10px;
+font-size:11pt;
+line-height: normal;
+letter-spacing: 1px;
+}
+ */
+
+
+
+
+/* FORM ELEMENTS */
+
+
+
+
+/* START LEFT SIDE FORM SIGN UP BOX */
+#form_signup {
+float:left;
+}
+
+#form_signup .ftext  {
+float:left;
+font-weight:normal;
+font-size:12px;
+color:#ffffff;
+display:block;
+width:180px;
+height:20px;
+padding:5px 10px 5px 10px;
+margin:0px 10px 20px 0px;
+text-transform:uppercase;
+background:#93cb19;
+
+border:2px solid #ffffff; /*CHANGABLE*/ /*DEFAULT COLOR: #d8d8d8 */
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #5b5b5b;
+-moz-box-shadow: 0px 0px 5px 1px #5b5b5b;
+-webkit-box-shadow: 0px 0px 5px 1px #5b5b5b;
+}
+
+#form_signup .input{
+float:right;
+font-size:16px;
+text-align:left;
+letter-spacing:2px;
+width:300px;
+height:30px;
+padding:5px 10px 5px 10px;
+margin:0px 0px 0px 0px;
+
+border:1px solid #585858;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #858585;
+-moz-box-shadow: 0px 0px 5px 1px #858585;
+-webkit-box-shadow: 0px 0px 5px 1px #858585;
+}
+
+
+/* THIS IS THE BOX THAT SHOWS THE ADMIN INFORMATION FIELD */
+#form_signup .accounttext  {
+float:right;
+font-weight:bold;
+font-size:12px;
+color:#ffffff;
+display:block;
+width:274px;
+height:20px;
+padding:5px 10px 5px 10px;
+margin:0px 0px 20px 0px;
+text-transform:uppercase;
+background:#d6d6d6;
+
+border:2px solid #ffffff; /*CHANGABLE*/ /*DEFAULT COLOR: #d8d8d8 */
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #5b5b5b;
+-moz-box-shadow: 0px 0px 5px 1px #5b5b5b;
+-webkit-box-shadow: 0px 0px 5px 1px #5b5b5b;
+}
+
+
+/* END LEFT SIDE FORM SIGN UP BOX */
+
+
+
+
+/* START LEFT SIDE FORM ACCOUNT BOX */
+#form_account_left {
+float:left;
+width:340px;
+height:auto;
+padding:0px 20px 20px 20px;
+margin:0px 0px 0px 0px;
+text-align:left;
+border:2px solid #ffcc00; /*CHANGABLE*/ /*DEFAULT COLOR: #d8d8d8 */
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+-o-border-radius: 12px;
+border-radius: 12px;
+
+/* shadows */
+box-shadow: 0px 0px 5px 1px #5b5b5b;
+-moz-box-shadow: 0px 0px 5px 1px #5b5b5b;
+-webkit-box-shadow: 0px 0px 5px 1px #5b5b5b;
+
+/* GRADIENT*/
+/*DEFAULT COLORS: top=#fbfbfb  base=#eaeaea */
+background /*base color*/:#ffffff;
+background-image: -moz-linear-gradient(bottom, /*BASE*/#e6e6e6, #ffffff/*top*/); 
+background-image: -webkit-gradient(linear, left bottom, left top, from(/*BASE*/#e6e6e6), to(#ffffff/*top*/));
+}
+
+
+#form_account_left .input{
+font-size:16px;
+text-align:center;
+letter-spacing:2px;
+width:340px;
+height:30px;
+padding:0px 10px 0px 10px;
+margin:-10px 0px 0px 0px;
+border:1px solid #585858;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #858585;
+-moz-box-shadow: 0px 0px 5px 1px #858585;
+-webkit-box-shadow: 0px 0px 5px 1px #858585;
+}
+
+
+#form_account_left .input2{
+font-size:16px;
+text-align:center;
+width:340px;
+height:30px;
+padding:5px 10px 5px 10px;
+margin:-10px 0px 5px 0px;
+border:1px solid #585858;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #858585;
+-moz-box-shadow: 0px 0px 5px 1px #858585;
+-webkit-box-shadow: 0px 0px 5px 1px #858585;
+}
+/* END LEFT SIDE FORM ACCOUNT BOX */
+
+
+
+/* START RIGHT SIDE PACKAGES BOX */
+#packages {
+float:left;
+display:block;
+width:auto;
+height:auto;
+padding:20px;
+margin:10px;
+text-align:left;
+border:2px solid #ffcc00; /*CHANGABLE*/ /*DEFAULT COLOR: #d8d8d8 */
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+-o-border-radius: 12px;
+border-radius: 12px;
+
+/* shadows */
+box-shadow: 0px 0px 5px 1px #5b5b5b;
+-moz-box-shadow: 0px 0px 5px 1px #5b5b5b;
+-webkit-box-shadow: 0px 0px 5px 1px #5b5b5b;
+
+/* GRADIENT*/
+/*DEFAULT COLORS: top=#fbfbfb  base=#eaeaea */
+background /*base color*/:#ffffff;
+background-image: -moz-linear-gradient(bottom, /*BASE*/#e6e6e6, #ffffff/*top*/); 
+background-image: -webkit-gradient(linear, left bottom, left top, from(/*BASE*/#e6e6e6), to(#ffffff/*top*/));
+}
+
+/* END RIGHT SIDE PACKAGES BOX */
+
+
+
+
+
+
+
+
+/* DELETE ACCOUNT BOX */
+#deleteaccount {
+font-size:14px;
+color:#ffffff;
+float:left;
+width:auto;
+height:auto;
+padding:20px 20px 20px 20px;
+margin:20px 0px 0px 0px;
+text-align:left;
+border:2px solid #ffcc00; /*CHANGABLE*/ /*DEFAULT COLOR: #d8d8d8 */
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+-o-border-radius: 12px;
+border-radius: 12px;
+
+/* shadows */
+box-shadow: 0px 0px 5px 1px #5b5b5b;
+-moz-box-shadow: 0px 0px 5px 1px #5b5b5b;
+-webkit-box-shadow: 0px 0px 5px 1px #5b5b5b;
+
+/* GRADIENT*/
+/*DEFAULT COLORS: top=#fbfbfb  base=#eaeaea */
+background /*base color*/:#990000;
+background-image: -moz-linear-gradient(bottom, /*BASE*/#990000, #cc0000/*top*/); 
+background-image: -webkit-gradient(linear, left bottom, left top, from(/*BASE*/#990000), to(#cc0000/*top*/));
+}
+
+#contentbox #deleteaccount h2  {
+font-weight:bold;
+font-size:20px;
+color:#ffffff;
+width:auto;
+height:auto;
+display:block;
+padding:5px;
+margin:0px 0px 10px 0px;
+text-transform:uppercase;
+text-align:center;
+background:#2e2e2e;
+
+border:2px solid #ffffff; /*CHANGABLE*/ 
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+-o-border-radius: 12px;
+border-radius: 12px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #5b5b5b;
+-moz-box-shadow: 0px 0px 5px 1px #5b5b5b;
+-webkit-box-shadow: 0px 0px 5px 1px #5b5b5b;
+}
+
+/* END DELETE ACCOUNT BOX */
+
+/* START LEFT SIDE FORM AD EDIT CHILD BOX */
+
+#form_addeditchild .input{
+font-size:18px;
+text-align:center;
+letter-spacing:2px;
+width:324px;
+height:30px;
+padding:0px 10px 0px 10px;
+margin:-10px 0px 0px 0px;
+border:1px solid #585858;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #858585;
+-moz-box-shadow: 0px 0px 5px 1px #858585;
+-webkit-box-shadow: 0px 0px 5px 1px #858585;
+}
+
+
+#form_addeditchild .input2{
+font-size:16px;
+text-align:center;
+width:324px;
+height:30px;
+padding:5px 10px 5px 10px;
+margin:-10px 0px 5px 0px;
+border:1px solid #585858;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #858585;
+-moz-box-shadow: 0px 0px 5px 1px #858585;
+-webkit-box-shadow: 0px 0px 5px 1px #858585;
+}
+/* END LEFT SIDE FORM AD EDIT CHILD BOX */
+
+
+/* START LEFT SIDE FORM AD EDIT WEB BOX */
+
+#form_addeditweb .input{
+font-size:18px;
+text-align:center;
+letter-spacing:2px;
+width:324px;
+height:30px;
+padding:0px 10px 0px 10px;
+margin:-10px 0px 0px 0px;
+border:1px solid #585858;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #858585;
+-moz-box-shadow: 0px 0px 5px 1px #858585;
+-webkit-box-shadow: 0px 0px 5px 1px #858585;
+}
+
+
+#form_addeditweb .input2{
+font-size:16px;
+text-align:center;
+width:324px;
+height:30px;
+padding:5px 10px 5px 10px;
+margin:-10px 0px 5px 0px;
+border:1px solid #585858;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #858585;
+-moz-box-shadow: 0px 0px 5px 1px #858585;
+-webkit-box-shadow: 0px 0px 5px 1px #858585;
+}
+/* END LEFT SIDE FORM AD EDIT WEB BOX */
+
+
+/* START LEFT SIDE FORM SEND CHILD MESSAGE */
+
+#form_send_child_msg .input{
+font-size:18px;
+text-align:center;
+letter-spacing:2px;
+width:324px;
+height:30px;
+padding:0px 10px 0px 10px;
+margin:-10px 0px 0px 0px;
+border:1px solid #585858;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #858585;
+-moz-box-shadow: 0px 0px 5px 1px #858585;
+-webkit-box-shadow: 0px 0px 5px 1px #858585;
+}
+
+
+#form_send_child_msg .input2{
+font-size:16px;
+text-align:center;
+width:324px;
+height:30px;
+padding:5px 10px 5px 10px;
+margin:-10px 0px 5px 0px;
+border:1px solid #585858;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #858585;
+-moz-box-shadow: 0px 0px 5px 1px #858585;
+-webkit-box-shadow: 0px 0px 5px 1px #858585;
+}
+/* END LEFT SIDE FORM SEND CHILD MESSAGE */
+
+
+/* START ICONS FOR CHILD AND WEBS */
+
+#imgpic{
+float:left;
+width:400px;
+margin: 0px 0px 0px 0px;
+text-transform: none;
+margin:0px 0px 0px -36px;
+}
+
+#imgpic ul{
+list-style:none;
+position:relative;
+left:0px;
+margin:0px 0px 0px 0px;
+}
+
+#imgpic li{
+float:left;
+position:relative;
+text-align:center;
+padding: 0px 0px 5px 0px;
+margin: 0px 10px 10px 0px;
+border:1px solid #585858;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #858585;
+-moz-box-shadow: 0px 0px 5px 1px #858585;
+-webkit-box-shadow: 0px 0px 5px 1px #858585;
+}/* ie needs position:relative here*/
+
+/* END ICONS FOR CHILD AND WEBS */
+
+
+/* !x!x!x!x!x!x!x!x ADDITIONAL FORM ELEMENTS !x!x!x!x!x!x!x!x */
+.textarea {
+width:250px;
+height:50px;
+border:1px solid #d2d2d2;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+margin: 10px 0px 0px 0px;
+padding: 5px;
+font-size:9pt;
+color:#006699;
+vertical-align:top;
+}
+
+select {
+height:30px;
+border:1px solid #d2d2d2;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+margin: 10px 0px 0px 0px;
+padding: 5px 10px 5px 10px;
+font-size:9pt;
+line-height: normal;
+letter-spacing: 1px;
+}
+
+
+/* GLOBAL SUBMIT BUTTON */
+
+.submit{
+margin:10px 10px 10px 10px;
+width:auto;
+height:30px;
+padding:0px 20px 0px 20px;
+}
+/* !x!x!x!x!x!x!x!x END FORM ELEMENTS !x!x!x!x!x!x!x!x */
+
+/* XXX DO NOT DELETE - THESE ARE FOR THE ICONS FOR EDIT AND DELETE XXX */
+/* EDIT ICON */
+.editbutton{
+background: transparent url(../icons/admin/edit.png) no-repeat center;
+height:40px;
+width:40px;
+border:0px;
+cursor:pointer;
+
+}
+/* DELETE ICON */
+.deletebutton{
+background: transparent url(../icons/admin/delete.png) no-repeat center;
+height:40px;
+width:40px;
+border:0px;
+cursor:pointer;
+}
+

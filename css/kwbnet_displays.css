@@ -1,0 +1,417 @@
+
+
+/* CONTAINER BOXES FOR HOLDING ICONS AND IMAGES */
+
+
+
+
+
+
+/* OOOOOOOOOOOOOOO START CHILD BOX 0000000000000*/
+
+#childbox {
+display:block;
+float:left;
+text-align:center;
+
+width:auto;
+height:auto;
+
+margin:0px 10px 20px 10px;
+padding:10px;
+
+border:2px solid #ffcc00; /*CHANGABLE*/ /*DEFAULT COLOR: #d8d8d8 */
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+-o-border-radius: 12px;
+border-radius: 12px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #5b5b5b;
+-moz-box-shadow: 0px 0px 5px 1px #5b5b5b;
+-webkit-box-shadow: 0px 0px 5px 1px #5b5b5b;
+
+/* GRADIENT*/
+/*DEFAULT COLORS: top=#fbfbfb  base=#eaeaea */
+background /*base color*/:#c6e0ea;
+background-image: -moz-linear-gradient(bottom, /*BASE*/#c6e0ea, #fbfbfb/*top*/); 
+background-image: -webkit-gradient(linear, left bottom, left top, from(/*BASE*/#c6e0ea), to(#fbfbfb/*top*/));
+}
+
+#childbox img{
+width:auto;
+height:auto;
+padding:10px;
+margin:0px 0px 0px 0px;
+border:1px solid #797979; /*CHANGABLE*/ /*DEFAULT COLOR: #d8d8d8 */
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+-o-border-radius: 8px;
+border-radius: 8px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #858585;
+-moz-box-shadow: 0px 0px 5px 1px #858585;
+-webkit-box-shadow: 0px 0px 5px 1px #858585;
+
+/* GRADIENT*/
+/*DEFAULT COLORS: top=#fbfbfb  base=#eaeaea */
+background /*base color*/:#f5f5f5;
+background-image: -moz-linear-gradient(bottom, /*BASE*/#f5f5f5, #fbfbfb/*top*/); 
+background-image: -webkit-gradient(linear, left bottom, left top, from(/*BASE*/#f5f5f5), to(#fbfbfb/*top*/));
+}
+
+/*child homeroom  in display/dsp_childlonk.php */
+#childbox .childhr{
+width:auto;
+height:auto;
+padding:10px;
+margin:0px 0px 0px 0px;
+border:1px solid #797979; /*CHANGABLE*/ /*DEFAULT COLOR: #d8d8d8 */
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+-o-border-radius: 8px;
+border-radius: 8px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #858585;
+-moz-box-shadow: 0px 0px 5px 1px #858585;
+-webkit-box-shadow: 0px 0px 5px 1px #858585;
+
+/* GRADIENT*/
+/*DEFAULT COLORS: top=#fbfbfb  base=#eaeaea */
+background /*base color*/:#f5f5f5;
+background-image: -moz-linear-gradient(bottom, /*BASE*/#f5f5f5, #fbfbfb/*top*/); 
+background-image: -webkit-gradient(linear, left bottom, left top, from(/*BASE*/#f5f5f5), to(#fbfbfb/*top*/));
+}
+
+
+#childbox a{
+font-size:18px;
+text-decoration:none;
+color:#000000;
+}
+/* OOOOOOOOOOOOOOO END CHILD BOX 0000000000000*/
+
+
+/* OOOOOOOOOOOOOOO START WEB BOX 0000000000000*/
+
+#webbox {
+display:block;
+float:left;
+text-align:center;
+
+width:auto;
+height:auto;
+
+margin:0px 10px 10px 0px;
+padding:10px;
+
+border:2px solid #ffcc00; /*CHANGABLE*/ /*DEFAULT COLOR: #d8d8d8 */
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+-o-border-radius: 12px;
+border-radius: 12px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #5b5b5b;
+-moz-box-shadow: 0px 0px 5px 1px #5b5b5b;
+-webkit-box-shadow: 0px 0px 5px 1px #5b5b5b;
+
+/* GRADIENT*/
+/*DEFAULT COLORS: top=#fbfbfb  base=#eaeaea */
+background /*base color*/:#c6e0ea;
+background-image: -moz-linear-gradient(bottom, /*BASE*/#c6e0ea, #fbfbfb/*top*/); 
+background-image: -webkit-gradient(linear, left bottom, left top, from(/*BASE*/#c6e0ea), to(#fbfbfb/*top*/));
+}
+
+#webbox img{
+width:auto;
+height:auto;
+padding:10px;
+margin:0px 0px 0px 0px;
+border:1px solid #797979; /*CHANGABLE*/ /*DEFAULT COLOR: #d8d8d8 */
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+-o-border-radius: 8px;
+border-radius: 8px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #858585;
+-moz-box-shadow: 0px 0px 5px 1px #858585;
+-webkit-box-shadow: 0px 0px 5px 1px #858585;
+
+/* GRADIENT*/
+/*DEFAULT COLORS: top=#fbfbfb  base=#eaeaea */
+background /*base color*/:#f5f5f5;
+background-image: -moz-linear-gradient(bottom, /*BASE*/#f5f5f5, #fbfbfb/*top*/); 
+background-image: -webkit-gradient(linear, left bottom, left top, from(/*BASE*/#f5f5f5), to(#fbfbfb/*top*/));
+}
+
+
+#webbox a{
+font-size:18px;
+text-decoration:none;
+color:#000000;
+}
+/* OOOOOOOOOOOOOOO END WEB BOX 0000000000000*/
+
+/* OOOOOOOOOOOOOOO START WEB BOX FOR ADMIN 0000000000000*/
+#webbox_admin {
+display:block;
+float:left;
+text-align:left;
+text-decoration:none;
+width:460px;
+height:auto;
+padding:10px;
+margin:0px 10px 10px 0px;
+border:1px solid #c0c0c0; /*CHANGABLE*/ /*DEFAULT COLOR: #d8d8d8 */
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+-o-border-radius: 12px;
+border-radius: 12px;
+/* shadows
+box-shadow: 0px 0px 5px 1px #5b5b5b;
+-moz-box-shadow: 0px 0px 5px 1px #5b5b5b;
+-webkit-box-shadow: 0px 0px 5px 1px #5b5b5b;
+ */
+/* GRADIENT*/
+/*DEFAULT COLORS: top=#fbfbfb  base=#eaeaea */
+background /*base color*/:#c6e0ea;
+background-image: -moz-linear-gradient(bottom, /*BASE*/#c6e0ea, #fbfbfb/*top*/); 
+background-image: -webkit-gradient(linear, left bottom, left top, from(/*BASE*/#c6e0ea), to(#fbfbfb/*top*/));
+}
+
+#webbox .webtitle{
+font-size:18px;
+color:#000000;
+text-transform:capitalize;
+text-decoration:none;
+}
+
+#webbox .webcat{
+font-size:14px;
+color:#797979;
+padding:0px 0px 0px 0px;
+text-transform:uppercase;
+text-decoration:none;
+}
+
+/*WEBBOX ADMIN*/
+#webbox_admin .webtitle{
+font-size:18px;
+color:#000000;
+text-transform:capitalize;
+text-decoration:none;
+}
+
+#webbox_admin .webcat{
+font-size:14px;
+color:#797979;
+padding:0px 0px 0px 0px;
+text-transform:uppercase;
+text-decoration:none;
+}
+
+
+#webbox_admin img{
+float:left;
+width:50px;
+height:50px;
+padding:5px;
+margin:0px 20px 0px 0px;
+border:1px solid #797979; /*CHANGABLE*/ /*DEFAULT COLOR: #d8d8d8 */
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+-o-border-radius: 8px;
+border-radius: 8px;
+/* shadows
+box-shadow: 0px 0px 5px 1px #858585;
+-moz-box-shadow: 0px 0px 5px 1px #858585;
+-webkit-box-shadow: 0px 0px 5px 1px #858585;
+ */
+/* GRADIENT*/
+/*DEFAULT COLORS: top=#fbfbfb  base=#eaeaea */
+background /*base color*/:#f5f5f5;
+background-image: -moz-linear-gradient(bottom, /*BASE*/#f5f5f5, #fbfbfb/*top*/); 
+background-image: -webkit-gradient(linear, left bottom, left top, from(/*BASE*/#f5f5f5), to(#fbfbfb/*top*/));
+}
+
+
+#webbox_admin hover{
+float:left;
+text-align:left;
+text-decoration:none;
+width:460px;
+height:auto;
+padding:10px;
+margin:0px 10px 10px 0px;
+border:2px solid #ffffff; /*CHANGABLE*/ /*DEFAULT COLOR: #d8d8d8 */
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+-o-border-radius: 12px;
+border-radius: 12px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #5b5b5b;
+-moz-box-shadow: 0px 0px 5px 1px #5b5b5b;
+-webkit-box-shadow: 0px 0px 5px 1px #5b5b5b;
+
+/* GRADIENT*/
+/*DEFAULT COLORS: top=#fbfbfb  base=#eaeaea */
+background /*base color*/:#ffcc00;
+background-image: -moz-linear-gradient(bottom, /*BASE*/#ffcc00, #fbfbfb/*top*/); 
+background-image: -webkit-gradient(linear, left bottom, left top, from(/*BASE*/#ffcc00), to(#fbfbfb/*top*/));
+}
+
+#webbox_admin span{
+display:block;
+width:100px;
+float:right;
+}
+
+/* OOOOOOOOOOOOOOO END WEB BOX FOR ADMIN 0000000000000*/
+
+
+/* OOOOOOOOOOOOOOO START WEB BOX FOR HOMEROOM webbox_homeroom 0000000000000*/
+#webbox_homeroom a{
+display:block;
+float:left;
+text-align:left;
+text-decoration:none;
+width:266px;
+height:110px;
+padding:10px;
+margin:0px 10px 10px 0px;
+border:1px solid #c0c0c0; /*CHANGABLE*/ /*DEFAULT COLOR: #d8d8d8 */
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+-o-border-radius: 12px;
+border-radius: 12px;
+/* shadows
+box-shadow: 0px 0px 5px 1px #5b5b5b;
+-moz-box-shadow: 0px 0px 5px 1px #5b5b5b;
+-webkit-box-shadow: 0px 0px 5px 1px #5b5b5b;
+ */
+/* GRADIENT*/
+/*DEFAULT COLORS: top=#fbfbfb  base=#eaeaea */
+background /*base color*/:#c6e0ea;
+background-image: -moz-linear-gradient(bottom, /*BASE*/#c6e0ea, #fbfbfb/*top*/); 
+background-image: -webkit-gradient(linear, left bottom, left top, from(/*BASE*/#c6e0ea), to(#fbfbfb/*top*/));
+}
+
+
+/*WEBBOX ADMIN*/
+#webbox_homeroom a .webtitle{
+font-size:18px;
+color:#000000;
+text-transform:capitalize;
+text-decoration:none;
+}
+
+#webbox_homeroom a .webcat{
+font-size:14px;
+color:#797979;
+padding:0px 0px 0px 0px;
+text-transform:uppercase;
+text-decoration:none;
+}
+
+
+#webbox_homeroom a img{
+float:left;
+width:100px;
+height:100px;
+padding:5px;
+margin:0px 20px 0px 0px;
+border:1px solid #797979; /*CHANGABLE*/ /*DEFAULT COLOR: #d8d8d8 */
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+-o-border-radius: 8px;
+border-radius: 8px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #858585;
+-moz-box-shadow: 0px 0px 5px 1px #858585;
+-webkit-box-shadow: 0px 0px 5px 1px #858585;
+
+/* GRADIENT*/
+/*DEFAULT COLORS: top=#fbfbfb  base=#eaeaea */
+background /*base color*/:#f5f5f5;
+background-image: -moz-linear-gradient(bottom, /*BASE*/#f5f5f5, #fbfbfb/*top*/); 
+background-image: -webkit-gradient(linear, left bottom, left top, from(/*BASE*/#f5f5f5), to(#fbfbfb/*top*/));
+}
+
+
+#webbox_homeroom a:hover{
+
+/* GRADIENT*/
+/*DEFAULT COLORS: top=#fbfbfb  base=#eaeaea */
+background /*base color*/:#ffcc00;
+background-image: -moz-linear-gradient(bottom, /*BASE*/#ffcc00, #fbfbfb/*top*/); 
+background-image: -webkit-gradient(linear, left bottom, left top, from(/*BASE*/#ffcc00), to(#fbfbfb/*top*/));
+}
+
+#webbox_homeroom a span{
+display:block;
+width:100px;
+float:right;
+}
+/* OOOOOOOOOOOOOOO END WEB BOX FOR HOMEROOM 0000000000000*/
+
+
+/* OOOOOOOOOOOOOOO START ADMIN FEATURES BOX 0000000000000*/
+
+#adminbox {
+display:block;
+float:left;
+text-align:center;
+
+width:120px;
+height:160px;
+
+margin:0px 10px 20px 10px;
+padding:10px;
+
+border:2px solid #ffcc00; /*CHANGABLE*/ /*DEFAULT COLOR: #d8d8d8 */
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+-o-border-radius: 12px;
+border-radius: 12px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #5b5b5b;
+-moz-box-shadow: 0px 0px 5px 1px #5b5b5b;
+-webkit-box-shadow: 0px 0px 5px 1px #5b5b5b;
+
+/* GRADIENT*/
+/*DEFAULT COLORS: top=#fbfbfb  base=#eaeaea */
+background /*base color*/:#c6e0ea;
+background-image: -moz-linear-gradient(bottom, /*BASE*/#c6e0ea, #fbfbfb/*top*/); 
+background-image: -webkit-gradient(linear, left bottom, left top, from(/*BASE*/#c6e0ea), to(#fbfbfb/*top*/));
+}
+
+#adminbox img{
+width:auto;
+height:auto;
+padding:10px;
+margin:0px 0px 0px 0px;
+border:1px solid #797979; /*CHANGABLE*/ /*DEFAULT COLOR: #d8d8d8 */
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+-o-border-radius: 8px;
+border-radius: 8px;
+/* shadows */
+box-shadow: 0px 0px 5px 1px #858585;
+-moz-box-shadow: 0px 0px 5px 1px #858585;
+-webkit-box-shadow: 0px 0px 5px 1px #858585;
+
+/* GRADIENT*/
+/*DEFAULT COLORS: top=#fbfbfb  base=#eaeaea */
+background /*base color*/:#f5f5f5;
+background-image: -moz-linear-gradient(bottom, /*BASE*/#f5f5f5, #fbfbfb/*top*/); 
+background-image: -webkit-gradient(linear, left bottom, left top, from(/*BASE*/#f5f5f5), to(#fbfbfb/*top*/));
+}
+
+
+#adminbox a{
+font-size:18px;
+text-decoration:none;
+color:#000000;
+}
+
+
+/* OOOOOOOOOOOOOOO END ADMIN BOX 0000000000000*/

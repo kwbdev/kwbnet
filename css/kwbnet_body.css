@@ -1,0 +1,42 @@
+body{
+padding:0px 0px 0px 0px;
+margin:0px 0px 0px 0px;
+background: #0583cd url(../images/topcurve01.png) repeat-x left top;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 14px;
+color: #000000;
+z-index:0;
+}
+
+/*#bodybackground{
+background: url(../images/layerbg.png) no-repeat center top;
+margin:20px 0px 0px 0px;
+padding:0px 0px 0px 0px;
+z-index:1;
+min-height:1000px;
+}*/
+
+#bodybox {
+/* controlled width and centers all content*/
+width:100%;
+padding:120px 0px 0px 0px;
+margin:0px 0px 0px 0px;
+}
+
+
+
+
+.small{
+font-weight:normal;
+font-size:10px;
+color:#4d4d4d;
+}
+
+
+
+
+
+
+
+
+
